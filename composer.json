@@ -1,0 +1,35 @@
+{
+    "name": "dracula/flarum",
+    "type": "flarum-extension",
+    "description": "Dracula theme for Flarum",
+    "keywords": ["flarum","theme"],
+    "license": "MIT",
+    "authors": [{
+      "name": "Darkle",
+      "email": "darkle@protonmail.com",
+      "homepage": "https://github.com/IamDarkle"
+    }],
+    "support": {
+      "issues": "https://github.com/dracula/flarum/issues",
+      "source": "https://github.com/dracula/flarum"
+    },
+    "require": {
+      "flarum/core": "^1.0.0"
+    },
+    "autoload": {
+      "psr-4": {
+        "serakoi\\flarum-skyswift\\": "src/"
+      }
+    },
+    "extra": {
+      "flarum-extension": {
+        "title": "Dracula Theme",
+        "icon": {
+          "image": "icon.png",
+          "backgroundColor": "#fff",
+          "backgroundSize": "cover",
+          "backgroundPosition": "center"
+        }
+      }
+    }
+  }
