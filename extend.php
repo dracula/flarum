@@ -16,6 +16,9 @@ return [
                 body {
                     background: #282a36;
                 }
+                h3.DiscussionListItem-title {
+                    font-family: Abril Text!important;
+                }
                 .Dropdown-menu>li.active>a {
                     color:#ffb86c!important;
                 }
