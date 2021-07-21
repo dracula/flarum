@@ -2,7 +2,7 @@
 
 #### Install using Composer
 
-    $ composer require dracula/flarum
+    $ composer require draculatheme/flarum
 
 #### Activating theme
 

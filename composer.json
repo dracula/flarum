@@ -1,13 +1,13 @@
 {
-    "name": "dracula/flarum",
+    "name": "draculatheme/flarum",
     "type": "flarum-extension",
     "description": "Dracula theme for Flarum",
     "keywords": ["flarum","theme"],
     "license": "MIT",
     "authors": [{
       "name": "Darkle",
-      "email": "darkle@protonmail.com",
-      "homepage": "https://github.com/IamDarkle"
+      "email": "tomasromero@outlook.com",
+      "homepage": "https://github.com/iamdarkle"
     }],
     "support": {
       "issues": "https://github.com/dracula/flarum/issues",
