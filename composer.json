@@ -2,7 +2,7 @@
     "name": "draculatheme/flarum",
     "type": "flarum-extension",
     "description": "Dracula theme for Flarum",
-    "keywords": ["flarum","theme"],
+    "keywords": ["flarum","theme","dracula","draculatheme"],
     "license": "MIT",
     "authors": [{
       "name": "Darkle",
@@ -15,6 +15,14 @@
     },
     "require": {
       "flarum/core": "^1.0.0"
+    },
+    "conflict": {
+      "fof/nightmode": "*"
+    },
+    "autoload": {
+      "psr-4": {
+        "draculatheme\\flarum\\": "src/"
+      }
     },
     "extra": {
       "flarum-extension": {
